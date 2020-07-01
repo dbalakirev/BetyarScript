@@ -25,7 +25,7 @@ const run = () => {
     const currentPath = process.cwd()
     const files = getFiles(currentPath)
 
-    console.log('NE\'D A MENNYI MI AZ' + files.length)
+    console.log('NE\'D A MENNYI MI AZ ' + files.length)
 
     files.forEach(file => {
         file = path.normalize(file)
