@@ -1,6 +1,6 @@
 # BetyarScript
 ![](sandor.jpg)
-> Where made up Hungarian folklore meats JavaScript, for no appearant reasons.
+> Where made up Hungarian folklore meets JavaScript, for no appearant reasons.
 
 Inspired by the work of [@pichsenmeister](https://twitter.com/pichsenmeister): https://github.com/pichsenmeister/BetyarScript/tree/master/examples
 
