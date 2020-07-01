@@ -1,7 +1,8 @@
-# SzittyaScript
-> Where Hungarian folklore meats JavaScript, for no appearant reasons.
+# BetyarScript
+![](sandor.jpg)
+> Where made up Hungarian folklore meats JavaScript, for no appearant reasons.
 
-Inspired by the work of [@pichsenmeister](https://twitter.com/pichsenmeister): https://github.com/pichsenmeister/SzittyaScript/tree/master/examples
+Inspired by the work of [@pichsenmeister](https://twitter.com/pichsenmeister): https://github.com/pichsenmeister/BetyarScript/tree/master/examples
 
 ### How much does it hurt?
 ```
@@ -23,26 +24,26 @@ AZT TUGGYA calc(operator, left, right) {
 }
 ```
 
-SzittyaScript adds syntactic sugar to JavaScript that makes it less forgiving, more emotional, and even painful to write, allowing you to do less with more code.
+BetyarScript adds syntactic sugar to JavaScript that makes it less forgiving, more emotional, and even painful to write, allowing you to do less with more code.
 
-Common Viennese phrases and words act as intuitive replacements for common JavaScript keywords, operators, and more. You can continue to use raw JavaScript inside SzittyaScript, and the `szittyascript` transpiler will convert SzittyaScript code into raw JavaScript.
+You can continue to use raw JavaScript inside BetyarScript, and the `BetyarScript` transpiler will convert BetyarScript code into raw JavaScript.
 
 ### Installation
-Why would you do that?
+But why would you do that?
 
-SzittyaScript requires [Node.js and npm](https://nodejs.org/en/).
+BetyarScript requires [Node.js and npm](https://nodejs.org/en/).
 
 ```
-npm install -g szittyascript
+npm install -g BetyarScript
 ```
 
 Usage:
 
 ```
-szittyascript
+BetyarScript
 ```    
 
-All files in that directory (and any subdirectories) that have a valid SzittyaScript file extensions (`.ws`) will be replaced by the transpiled contents of in the `/dist` directory.
+All files in that directory (and any subdirectories) that have a valid BetyarScript file extensions (`.ws`) will be replaced by the transpiled contents of in the `/dist` directory.
 
 Input files conventionally use the `.ws` extension and output files conventionally use the `.js` extension.
 
