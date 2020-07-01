@@ -1,22 +1,22 @@
-HACKL AMOI WOS calc(operator, left, right) {
-    WOS IS MIT DIR (operator) {
-        I SCHAU NUR '+':
-            DRAH DI HAM left AUFI right
-        I SCHAU NUR '-':
-            DRAH DI HAM left OWI right   
-        I SCHAU NUR '*':
-            DRAH DI HAM left HAUTS EICH ZAM right   
-        I SCHAU NUR '/':
-            DRAH DI HAM left BRÖCKERL right
-        NA GEH:
-            GEH SCHEISSN 'invalid operator'        
+AZT TUGGYA calc(operator, left, right) {
+    LASSUK CSAK (operator) {
+        AMIKOR '+':
+            VISSZA MENNYE left MOG right
+        AMIKOR '-':
+            VISSZA MENNYE left BUL right   
+        AMIKOR '*':
+            VISSZA MENNYE left SOKSZOR right   
+        AMIKOR '/':
+            VISSZA MENNYE left DUL A FA right
+        AMUGY:
+            DOBGYAD 'invalid operator'        
     }
 
-    DRAH DI HAM sum
+    VISSZA MENNYE sum
 }
 
-SCHAU MA MOL {
-    I MAN JA NUR (calc('+', 1, 2))
-} LECK OASCH (err) {
-    GSCHISSN GRISSN ('invalid operation')
+PROBALJAD {
+    IRGYAD (calc('+', 1, 2))
+} FIGYEJJE (err) {
+    AZ ANNYUKAJAT ('invalid operation')
 }
